@@ -1,0 +1,31 @@
+modLoader="javafxmod"
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="zozi"
+version="1.0.0"
+displayName="Zozi - Companion NPC"
+logoFile="logo.png"
+credits="Created by Utofarman"
+authors="Utofarman"
+description="""
+Zozi is a companion NPC mod that spawns a helpful companion when you join a world.
+The companion follows you, helps in combat, collects resources, and builds farms.
+Completely offline - no internet connection required!
+"""
+displayURL="https://github.com/Utofarman1/Zozi-Companion-Mod"
+
+[[dependencies.zozi]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.zozi]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
